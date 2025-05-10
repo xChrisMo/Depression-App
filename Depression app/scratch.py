@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load("logreg_model.pkl")
+model = joblib.load("Depression app/logreg_model.pkl")
 
 st.set_page_config(page_title="Depression Prediction Survey", layout="centered")
 
